@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Euro Flora</title>
+	<title>Euro Flora</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+  	.image-section{
+  		width: 300px;
+  		float: left;
+  		padding: 40px;
+  		margin-left: 50px;
+  	}
+.content-section{
+	width: 500px;
+	float: right;
+}
+.image-section button{
+   color:white;
+   padding: 8px 20px 8px 20px;
+   border: none;
+   background-color: #802b00; 
+}
+.content-section button{
+	color: white;
+	background-color: #802b00;
+	border: none;
+	padding: 8px 20px;
+	float: right;
+	margin-right: 20px;
+}
+input[type=radio]{
+    border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.content-section label{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+i{
+	color: #802b00;
+}
+</style>
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="Section01">
+      <div class="logo">
+        <img src="images/logo-small.png">
+      </div><!--logo-->
+      <div class="icon-bar clearfix">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+        <li><a href="sitemap.html"><i class="fa fa-envelope"></i> Contact us</a></li>
+        <li><a href="contact-us.html"><i class="fa fa-th-large" aria-hidden="true"></i> The florist</a></li>
+        <li><a href="about-us.html"><i class="fa fa-camera" aria-hidden="true"></i> Gallery</a></li>
+        <li><a href="about-us.html"><i class="fa fa-cogs" aria-hidden="true"></i> How to order</a></li>
+        <li><a href="about-us.html"><i class="fa fa-phone" aria-hidden="true"></i> Order by phone</a></li>
+        <li><a href="about-us.html"><i class="fa fa-comment-o" aria-hidden="true"></i> Chat</a></li>
+      </ul>
+     </div><!--icon-bar-->  
+    </div><!--Section01-->
+
+    <div class="row">
+  <div class="column side" style="background-color:#bbb;"></div>
+
+  <div class="column middle" style="background-color:#fff;">
+<div class="image-section">
+	<img src="images/the smile.jpg">
+	<p><b>Price(delivery included)</b></p>
+	<hr>
+	<br>
+	<form>
+	<input type="radio" name="Price" value="78">
+	<label>Standard 78.90 €</label><i class="fa fa-info-circle" style="padding-left: 20px"></i>
+	<br>
+	<input type="radio" name="Price" value="98">
+	<label>Deluxe 98.90 €</label><i class="fa fa-info-circle" style="padding-left: 20px"></i>
+	<br>
+	<input type="radio" name="Price" value="118">
+	<label>Premium 118.90 €</label><i class="fa fa-info-circle" style="padding-left: 20px"></i>
+	<br>
+	<br>
+	<button>Total 78.90 €(delivery included)</button>
+	<br>
+	<p>The smile 78.90 €</p>
+</form>
+</div><!--imaage-section-->
+
+<div class="content-section">
+	<h2 style="font-family: cursive">The smile</h2>
+	<h5>Bouquet of roses and mixed seasonal flowers in vivid colors, decorated with greenery. Suitable
+for every occasion. Conveys joy.</h5>
+<p><i class="fa fa-info-circle" style="padding-right: 5px"></i>Seasonal Flowers or Plants may be changed if unavailable. However, we will try to stick to the type of the
+chosen flowers as much as possible. The vase is not included. The picture usually referring the "Deluxe"
+arrangement.
+</p>
+<br>
+<hr>
+<br>
+<form>
+	<label><b>Delivary Date <sup>*</sup></b></label>
+	<input type="date" name="Delivery_Date" style="margin-left: 15px">
+	<br>
+	<label><b>Delivery time</b></label>
+	<input type="radio" name="delivery" value="weekday" style="margin-left: 15px; margin-top: 15px"> Working Dar-Free(9.am-9.pm)<br>
+	<input type="radio" name="Delivery" value="holiday" style="margin-left: 155px; margin-top: 10px">Sunday and Public Holidays 4.00
+	<br>
+	<label><b>Quantity</b></label>
+	<input type="text" name="quantity" value="1" size="4" style="margin-left: 45px; margin-top: 15px">
+	<br>
+	<br>
+	<label><b>Message</b><br><small>Out of ideas? Choose a message!</small></label>
+	<textarea rows="4" cols="25" style="margin-left: 25px"></textarea>
+	<br>
+	<p style="margin-left: 250px;">250 characters vremaining</p>
+	<br>
+	<label><b>Signature</b></label>
+	<input type="text" name="signature" style="margin-left: 40px; padding: 10px">
+	<br>
+	<p style="margin-left: 145px">if the messaged is not signed, it will be delivered anonymously</p>
+	<br>
+	<button>Continue &raquo;</button>
+<br>
+<br>
+<br>
+</form>
+</div><!--content-section-->
+
+  	</div>
+  
+
+  <div class="column side" style="background-color:#bbb;"></div>
+</div><!--row-->
+	</div><!--wrapper-->
+	
+</body>
+</html>

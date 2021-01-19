@@ -1,0 +1,164 @@
+
+@charset "UTF-8";
+
+a { text-decoration: none; }
+
+p { margin-top: 10px; margin-bottom: 15px; font-size: 14px; color: #444;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #bbb;
+ 
+}
+
+.clearfix { overflow: auto }
+
+.wrapper {
+  margin: 0 auto; 
+  width: 100%;
+  
+}
+.Section01{
+  background: #996600;
+  background: linear-gradient(to right, #b89470, #b28c66, #e0d1c2, #f5f0eb, #ebe0d6, #ccb299, #bd9c7a);
+}
+.logo{
+	float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.icon-bar {
+  text-align: right;
+  padding-right: 40px;
+}
+
+.icon-bar ul {
+  list-style: none;
+}
+
+.icon-bar ul li {
+  display: inline;
+}
+
+.icon-bar ul li a {
+  color: #b37700;
+  margin: 10px 10px;
+  display: inline-block;
+}
+
+.icon-bar ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.column {
+  float: left;
+  height: 2000px;
+
+}
+
+.column.side {
+  width: 15%;
+}
+
+.column.middle {
+  width: 70%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+	font-size: 30px;
+	font-family: cursive;
+  padding:10px;
+	margin: 15px 20px;
+  color: #6B2E14;
+}
+.Section03{
+  border: 2px solid #ccc;
+  margin: 10px 25px;
+}
+.images1{
+  float: left;
+  width: 70%;
+}
+.images2{
+  float: left;
+  width: 30%;
+}
+.text1{
+  position: absolute;
+  background:white;
+  background: rgba(255, 255, 255, 0.4);
+  top: 40%;
+  left: 40%;
+  color: black;
+  padding: 0 6px;
+
+}
+.text2{
+  position: absolute;
+  background: white;
+  background: rgba(255,255,255,0.4);
+  color: black;
+  width: 13%;
+  padding: 10px;
+  top: 50%;
+}
+.Section04{
+  float: left;
+  margin: 10px 30px;
+}
+.Section05{
+  margin:  10px 30px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.desc h3{
+  color: #401B0C;
+  font-family: cursive;
+}
+.desc p{
+  color: #401B0C;
+  font-size: 13px;
+}
+
+.pricetag{
+  background-color: #7A6355;
+  color: #fff;
+  font-size: 16px;
+  padding: 2px 9px;
+  float: right;
+}
+i{
+  color:#7A6355;
+  float: left; 
+
+}
+del{
+  color: red;
+  float: right;
+  font-size: 16px;
+}
